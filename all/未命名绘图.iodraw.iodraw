@@ -11,7 +11,7 @@
           <mxGeometry x="294" y="600" width="239" height="81" as="geometry" />
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-2" value="提取形成ADG有向无环图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="287" y="741" width="252" height="102" as="geometry" />
+          <mxGeometry x="360" y="790" width="179" height="53" as="geometry" />
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-3" value="提取定子冲突干涉关系" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="919" width="220" height="49" as="geometry" />
