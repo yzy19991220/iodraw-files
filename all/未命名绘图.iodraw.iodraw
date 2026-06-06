@@ -4,7 +4,7 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="m0_XAEkqPLsjew16gP3f-0" value="全局规划层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="m0_XAEkqPLsjew16gP3f-0" value="进入规划层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="343" y="490" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-1" value="MAPF规划器生成无碰撞时空初始路径&#xa;（带理想时间戳）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -19,7 +19,7 @@
         <mxCell id="m0_XAEkqPLsjew16gP3f-4" value="生成定子事件依赖关系有向无环图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="314" y="830" width="200" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-11" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="m0_XAEkqPLsjew16gP3f-11" value="规划层执行完成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="288" y="920" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-12" value="步骤4: 基于事件上报的纯异步控制执行" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
