@@ -22,30 +22,6 @@
         <mxCell id="m0_XAEkqPLsjew16gP3f-11" value="规划层执行完成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="324" y="900" width="180" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-12" value="步骤4: 基于事件上报的纯异步控制执行" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1128" y="1546" width="252" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-13" value="底层事件感知与上报&#xa;定子触发Eentry/Eexit并上传状态字" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="274" y="1680" width="247" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-14" value="上层状态机维护与依赖解除&#xa;动态更新SEG并注销满足的依赖边" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="571" y="1680" width="252" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-15" value="零依赖触发指令下发&#xa;安全防撞执行" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="873" y="1689" width="204" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-16" value="底层安全悬停等待&#xa;未解除依赖则动子保持平稳悬停" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1127" y="1680" width="252" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-17" value="异常状态字逆向上报与全局死锁解除" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1429" y="1689" width="252" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-18" value="定子硬件异常触发保护并上报" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1278" y="1814" width="252" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-19" value="全局规划层重新路径规划或人工报警" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1580" y="1814" width="252" height="67" as="geometry" />
-        </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-0" target="m0_XAEkqPLsjew16gP3f-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -60,55 +36,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="555.5" y="1044" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.62;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-12" target="m0_XAEkqPLsjew16gP3f-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="398" y="1655" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.68;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-12" target="m0_XAEkqPLsjew16gP3f-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="697" y="1655" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.86;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-12" target="m0_XAEkqPLsjew16gP3f-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="975" y="1655" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-12" target="m0_XAEkqPLsjew16gP3f-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1253" y="1655" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-12" target="m0_XAEkqPLsjew16gP3f-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1555" y="1655" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-17" target="m0_XAEkqPLsjew16gP3f-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1404" y="1789" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-17" target="m0_XAEkqPLsjew16gP3f-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1706" y="1789" />
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>
