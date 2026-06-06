@@ -5,19 +5,19 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="m0_XAEkqPLsjew16gP3f-0" value="全局规划层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="323" y="320" width="140" height="49" as="geometry" />
+          <mxGeometry x="343" y="490" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-1" value="步骤1: 多智能体时空路径规划&#xa;为所有动子计算全局无碰撞的初始路径" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="267" y="419" width="252" height="102" as="geometry" />
+          <mxGeometry x="287" y="589" width="252" height="102" as="geometry" />
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-2" value="步骤2: 构建全局动作依赖关系图(ADG)&#xa;时空解耦与物理约束融合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="267" y="571" width="252" height="102" as="geometry" />
+          <mxGeometry x="287" y="741" width="252" height="102" as="geometry" />
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-3" value="提取定子冲突干涉关系" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="919" width="220" height="49" as="geometry" />
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-4" value="引入跨段安全原子性互斥约束&#xa;动子驶出前获得目标定子及过渡区独占控制权" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="410" y="723" width="252" height="102" as="geometry" />
+          <mxGeometry x="430" y="893" width="252" height="102" as="geometry" />
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-5" value="步骤3: ADG降维映射为底层事件触发逻辑" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="1044" width="251" height="84" as="geometry" />
@@ -74,18 +74,17 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-2">
+        <mxCell id="m0_XAEkqPLsjew16gP3f-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-2" target="m0_XAEkqPLsjew16gP3f-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="698" />
+              <mxPoint x="270" y="868" />
             </Array>
-            <mxPoint x="250" y="749" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-2" target="m0_XAEkqPLsjew16gP3f-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="536" y="698" />
+              <mxPoint x="556" y="868" />
             </Array>
           </mxGeometry>
         </mxCell>
