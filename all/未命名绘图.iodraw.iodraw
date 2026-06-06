@@ -19,24 +19,6 @@
         <mxCell id="m0_XAEkqPLsjew16gP3f-4" value="生成定子事件依赖关系有向无环图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="314" y="830" width="200" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-5" value="步骤3: ADG降维映射为底层事件触发逻辑" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="1044" width="251" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-6" value="定义事件 E={Eentry,Eexit}" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="423" y="1187" width="244" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-7" value="建立三类底层定子事件驱动依赖边" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="717" y="1179" width="252" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-8" value="Type1: 同定子时序互斥边" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="583" y="1304" width="241" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-9" value="Type2: 跨段运动连续性依赖边" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="874" y="1295" width="220" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-10" value="Type3: 跨定子空间干涉依赖边" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1144" y="1295" width="220" height="67" as="geometry" />
-        </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-11" value="逻辑绑定与下发&#xa;将防撞约束映射为定子间事件触发条件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1128" y="1412" width="252" height="84" as="geometry" />
         </mxCell>
@@ -74,49 +56,16 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-4" target="m0_XAEkqPLsjew16gP3f-5">
+        <mxCell id="m0_XAEkqPLsjew16gP3f-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="555.5" y="1044" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.48;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-5" target="m0_XAEkqPLsjew16gP3f-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="545" y="1154" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-5" target="m0_XAEkqPLsjew16gP3f-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="843" y="1154" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-7" target="m0_XAEkqPLsjew16gP3f-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="703" y="1270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-7" target="m0_XAEkqPLsjew16gP3f-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="984" y="1270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-7" target="m0_XAEkqPLsjew16gP3f-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1254" y="1270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m0_XAEkqPLsjew16gP3f-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-10" target="m0_XAEkqPLsjew16gP3f-11">
+        <mxCell id="m0_XAEkqPLsjew16gP3f-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="m0_XAEkqPLsjew16gP3f-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="1254" y="1362" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m0_XAEkqPLsjew16gP3f-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m0_XAEkqPLsjew16gP3f-11" target="m0_XAEkqPLsjew16gP3f-12">
